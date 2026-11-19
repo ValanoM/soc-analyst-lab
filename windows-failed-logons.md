@@ -1,4 +1,4 @@
-# Detection Idea: Repeated Failed Windows Logons
+# Detection
 
 - **Objective:** identify repeated failed logon attempts that may warrant investigation.
 - **Data source:** Windows Security log.
