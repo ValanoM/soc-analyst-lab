@@ -1,0 +1,28 @@
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+.aws/
+.gcloud/
+
+# Local evidence and exports (review before committing)
+evidence/private/
+logs/raw/
+*.evtx
+*.pcap
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
