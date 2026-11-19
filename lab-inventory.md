@@ -5,7 +5,7 @@ Fill in the values from your current rebuilt environment. Do not guess or paste 
 | Component | VM/hostname | OS/version | Lab IP | Purpose | Status |
 |---|---|---|---|---|---|
 | Endpoint | TH-WIN01 | Windows (confirm edition/build) | TODO | Sysmon + Wazuh agent | TODO |
-| SIEM | TODO | Ubuntu Server (confirm version) | TODO | Wazuh manager/indexer/dashboard | TODO |
+| SIEM | Wazuh | Ubuntu Server (confirm version) | TODO | Wazuh manager/indexer/dashboard | TODO |
 | Domain controller | Not required | — | — | Optional future extension | Not deployed |
 
 ## Network notes
