@@ -1,13 +1,12 @@
 # Lab Setup Guide
 
-## Recommended small-footprint setup
+#
 
 - **Endpoint VM:** Windows 10/11, Sysmon, Wazuh agent
 - **SIEM VM:** Ubuntu Server with Wazuh all-in-one deployment
 - **Hypervisor:** VirtualBox
 - **Networking:** NAT for updates plus host-only/internal networking for lab traffic, as needed
 
-Exact CPU/RAM/disk requirements depend on the Wazuh release and available host resources. Check the current official Wazuh installation guide before deploying.
 
 ## Setup sequence
 
@@ -29,4 +28,3 @@ Exact CPU/RAM/disk requirements depend on the Wazuh release and available host r
 - Check the local Windows event log before troubleshooting rules.
 - Record errors and timestamps in `docs/lab-journal.md`.
 
-Do not expose the Wazuh dashboard or agent ports to the public internet. Keep credentials out of the repository.
